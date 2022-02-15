@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Raleway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Raleway:wght@600&display=swap');
+
+
+body {
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    background: hsl(212, 45%, 89%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-container {
+    border-radius: 10px;
+    width: 350px;
+    margin: 15px auto;
+    background-color: #fff;
+    position: relative;
+   
+}
+
+.content-container img {
+    width: 320px;
+    height: 320px;
+    margin-top: 10px;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+
+.content-container h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    text-align: center;
+    max-width: 70%;
+    margin: 15px auto;
+    line-height: 25px;
+}
+
+.content-container p {
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+    max-width: 70%;
+    margin: 15px auto 35px;
+    line-height: 22px;
+
+
+}
